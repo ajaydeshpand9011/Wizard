@@ -1,0 +1,56 @@
+<div class="wizard background-1 shadow-sm" style="height: 10vh;">
+    <div class="container d-flex justify-content-center">
+        <div class="containerr">
+            <div class="flex">
+                <div class="col-sm-3 borderr-l d-flex justify-content-evenly">
+                    <span class="dot">1</span>
+                </div>
+                <div class="col-sm-3 active_borderr borderr d-flex justify-content-evenly">
+                    <span class="dot active">2</span>
+                </div>
+                <div class="col-sm-3 borderr d-flex justify-content-evenly">
+                    <span class="dot">3</span>
+                </div>
+                <div class="col-sm-3 borderr-r d-flex justify-content-evenly">
+                    <span class="dot">4</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h6 class="text-light pt-2">Step 2: Contact Details</h6>
+</div>
+<div class="margin">
+    <div id="card">
+        <div id="containerr">
+            <div class="mb-3 mt-3 row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+            </div>
+            <div class="mb-3 mt-3 row">
+                <label for="inputMobile" class="col-sm-2 col-form-label">Mobile</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="inputMobile">
+                </div>
+            </div>
+            <div class="mb-3 mt-3 row">
+                <label for="inputCountry" class="col-sm-2 col-form-label">Country</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputCountry">
+                </div>
+            </div>
+            <div class="row p-1">
+                <div class="col-md-8"></div>
+                <div class="col-md-2">
+                    <div class="btn btn-secondary" (click)="onBack()">BACK</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="btn btn-primary" (click)="onNext()">NEXT</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<div class="wizard background-1 shadow-sm" style="height: 10vh;">
+    <div class="container d-flex justify-content-center">
+        <div class="containerr">
+            <div class="flex">
+                <div class="col-sm-3 borderr-l d-flex justify-content-evenly">
+                    <span class="dot">1</span>
+                </div>
+                <div class="col-sm-3 borderr d-flex justify-content-evenly">
+                    <span class="dot">2</span>
+                </div>
+                <div class="col-sm-3 active_borderr borderr d-flex justify-content-evenly">
+                    <span class="dot active">3</span>
+                </div>
+                <div class="col-sm-3 borderr-r d-flex justify-content-evenly">
+                    <span class="dot">4</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h6 class="text-light pt-2">Step 3: Skill Details</h6>
+</div>
+<div class="margin">
+    <div id="card">
+        <div id="containerr">
+            <div class="mb-3 mt-3 row">
+                <label for="inputSkillOne" class="col-sm-2 col-form-label">Skill 1</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputSkillOne">
+                </div>
+            </div>
+            <div class="mb-3 mt-3 row">
+                <label for="inputSkillTwo" class="col-sm-2 col-form-label">Skill 2</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputSkillTwo">
+                </div>
+            </div>
+            <div class="mb-3 mt-3 row">
+                <label for="inputSkillThree" class="col-sm-2 col-form-label">Skill 3</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputSkillThree">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 p-1"></div>
+                <div class="col-md-2 p-1">
+                    <div class="btn btn-secondary" (click)="onBack()">BACK</div>
+                </div>
+                <div class="col-md-2 p-1">
+                    <div class="btn btn-primary"b (click)="onNext()">NEXT</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
